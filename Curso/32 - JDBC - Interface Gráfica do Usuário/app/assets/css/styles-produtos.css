@@ -1,0 +1,44 @@
+/* styles-produtos.css */
+
+/* Estilo para o elemento raíz (janela) */
+.root {
+    -fx-background-color: dodgerblue; /* Define a cor de fundo */
+}
+
+/* Estilo para os rótulos */
+.label {
+    -fx-font-size: 14px; /* Define o tamanho da fonte */
+    -fx-text-fill: black; /* Define a cor do texto */
+    -fx-font-weight: bold; /* Define o peso da fonte */
+}
+
+/* Estilo para os campos de texto */
+.text-field {
+    -fx-border-color: lightgray; /* Define a cor da borda */
+    -fx-background-color: white; /* Define a cor de fundo */
+}
+
+/* Estilo para os botões */
+.button {
+    -fx-background-color: linear-gradient(to bottom, black, dodgerblue); /* Define um gradiente para cor de fundo */
+    -fx-text-fill: white; /* Define a cor do texto */
+    -fx-font-size: 14px; /* Define o tamanho da fonte */
+    -fx-cursor: hand; /* Define o cursor */
+}
+
+/* Estilo para os botões ao passar o mouse */
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, lightskyblue, deepskyblue); /* Define um gradiente para cor de fundo */
+}
+
+/* Estilo para a visualização de tabelas */
+.table-view {
+    -fx-border-color: lightgray; /* Define a cor da borda */
+    -fx-background-color: white; /* Define a cor de fundo */
+}
+
+/* Estilo para as células da tabela */
+.table-cell {
+    -fx-border-color: lightgray; /* Define a cor da borda */
+    -fx-padding: 10px; /* Define o preenchimento interno */
+}
